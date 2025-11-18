@@ -13,6 +13,7 @@ export default defineConfig({
     minify: false,
     outDir: "../lens-api/wwwroot/app"
   },
+  base: "/sara-s/",
   plugins: [
     react(),
     eslint(),
