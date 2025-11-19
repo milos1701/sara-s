@@ -11,7 +11,6 @@ const projectRootDir = resolve(__dirname);
 export default defineConfig({
   build: {
     minify: false,
-    outDir: "../lens-api/wwwroot/app"
   },
   base: "/sara-s/",
   plugins: [
