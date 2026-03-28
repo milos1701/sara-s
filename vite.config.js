@@ -10,7 +10,7 @@ const projectRootDir = resolve(__dirname);
 
 export default defineConfig({
   build: {
-    minify: false,
+    minify: false
   },
   base: "/sara-s/",
   plugins: [
